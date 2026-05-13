@@ -52,8 +52,8 @@ local spot2_sequence = {
     CFrame.new(-336.942902, -5.10106993, 99.3276443, 0.999914348, -3.63984611e-08, 0.0130875716, 3.67094941e-08, 1, -2.35254749e-08, -0.0130875716, 2.40038975e-08, 0.999914348)
 }
 
-if CoreGui:FindFirstChild("PieScriptGui") then 
-    CoreGui["PieScriptGui"]:Destroy() 
+if CoreGui:FindFirstChild("KingScriptGui") then 
+    CoreGui["KingScriptGui"]:Destroy() 
 end
 
 local screenGui = Instance.new("ScreenGui")
@@ -170,7 +170,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(0.7, 0, 1, 0)
 title.Position = UDim2.new(0.05, 0, 0, 0)
 title.BackgroundTransparency = 1
-title.Text = "PieScript - Auto Steal Carpet"
+title.Text = "KingScript - Auto Steal Carpet"
 title.TextColor3 = ThemeColor
 title.TextSize = 14
 title.Font = Enum.Font.GothamBold
